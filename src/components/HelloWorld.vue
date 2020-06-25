@@ -1,14 +1,20 @@
 <template>
   <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="../assets/logo.png">
+    <btn title="Salvar" />
   </q-page>
 </template>
 
-<style>
-</style>
-
 <script>
+import Button from  '@/components/Button.vue';
+
 export default {
-  name: 'HelloWorld'
+  name: 'HelloWorld',
+  components: {
+    'btn' : Button,
+  }
 }
 </script>
+
+<style>
+
+</style>

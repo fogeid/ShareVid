@@ -1,14 +1,15 @@
 <template>
-  <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="../assets/logo.png">
-  </q-page>
+  <q-btn unelevated rounded class="full-width" style="font-size: 1.2rem;letter-spacing: 1px;" color="primary" type="submit" :label="title" no-caps />
 </template>
-
-<style>
-</style>
 
 <script>
 export default {
-  name: 'HelloWorld'
+  name: 'Button',
+  data() {
+    return {
+      
+    }
+  },
+  props: ['title']
 }
 </script>
