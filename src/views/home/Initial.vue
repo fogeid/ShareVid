@@ -1,17 +1,17 @@
 <template>
-  <div class="initial">
-    <div class="row justify-center">
+  <q-layout class="initial">
+    <q-page-container class="row justify-center">
       <div class="main col-10 col-sm-4">
         <btn class="btn" title="login" />
         <btn class="btn" title="register" />
       </div>
-    </div>
-    <div class="row justify-center">
+    </q-page-container>
+    <q-page-container class="row justify-center">
       <div class="carousel col-12 col-sm-4">
-          <carousel />
+        <carousel />
       </div>
-    </div>
-  </div>
+    </q-page-container>
+  </q-layout>
 </template>
 
 <script>
@@ -29,7 +29,7 @@ export default {
 
 <style>
 .initial {
-    background: url("../assets/background-initial.png");
+    background: url("../../assets/background-initial.png");
     background-size: cover;
     height: 100vh;    
 }

@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Initial from '../views/Initial.vue';
+import Initial from '../views/home/Initial.vue';
 
 Vue.use(VueRouter)
 
@@ -13,22 +13,37 @@ Vue.use(VueRouter)
   {
     path: '/login',
     name: 'Login',
-    component: () => import('../views/Login.vue')
+    component: () => import('../views/home/Login.vue')
   },
   {
     path: '/register',
     name: 'Register',
-    component: () => import('../views/Register.vue')
+    component: () => import('../views/home/Register.vue')
   },
   {
     path: '/profile',
     name: 'Profile',
-    component: () => import('../views/Profile.vue')
+    component: () => import('../views/system/Profile.vue')
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import('../views/About.vue')
+    path: '/dashboard',
+    name: 'Dashboard',
+    component: () => import('../views/system/Dashboard.vue')
+  },
+  {
+    path: '/gallery',
+    name: 'Gallery',
+    component: () => import('../views/system/Gallery.vue')
+  },
+  {
+    path: '/detail',
+    name: 'Detail',
+    component: () => import('../views/system/Detail.vue')
+  },
+  {
+    path: '/following',
+    name: 'Following',
+    component: () => import('../views/system/Following.vue')
   }
 ];
 
