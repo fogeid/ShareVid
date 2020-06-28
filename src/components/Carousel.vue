@@ -55,5 +55,5 @@ export default {
       description: 'Best Video Sharing Platform around the globe'
     }
   }
-}
+};
 </script>

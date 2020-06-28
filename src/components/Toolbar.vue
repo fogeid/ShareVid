@@ -28,10 +28,10 @@
           <q-item class="q-mb-lg">
               <q-item-section avatar>                
                   <q-avatar size="120px" class="q-mb-md q-mt-lg">
-                      <img src="../assets/photo-profile.jpg">
+                      <img src="../assets/photo-profile.png">
                   </q-avatar>
-                  <div class="text-weight-bold text-white text-h5">Gabi Gordo</div>
-                  <div class="text-white">Soccer Player Fake</div>
+                  <div class="text-weight-bold text-white text-h5">{{ name }}</div>
+                  <div class="text-white">{{ job }}</div>
               </q-item-section>            
           </q-item>
 
@@ -107,9 +107,11 @@ export default {
   name: 'Button',
   data () {
     return {
-      leftDrawerOpen: false
+      leftDrawerOpen: false,
+      name: 'Lizzie Aguilar',
+      job: 'Web Developer'
     }
   },
   props: ['title']
-}
+};
 </script>

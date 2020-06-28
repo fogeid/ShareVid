@@ -1,7 +1,7 @@
 <template>
   <q-layout class="login">
     <q-page-container class="row justify-center">
-      <div class="form col-10 col-sm-4">
+      <div class="form col-10 col-sm-6 col-md-4">
         <h1 class="text-h4 text-center text-white">Login</h1>
         <form-input class="input" title="Email" type="email" />
         <form-input class="input" title="Senha" type="password" />
@@ -28,22 +28,13 @@ export default {
 
 <style>
 .login {
-    background: url("../../assets/background-login.png");
+    background: url("../../assets/background-login.jpg");
     background-size: cover;
     height: 100vh;    
 }
 
-.login:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(77,16,138,.6);
-}
 h1 {
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 .input + .input {

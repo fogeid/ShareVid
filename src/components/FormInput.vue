@@ -11,7 +11,7 @@ export default {
     }
   },
   props: ['title', 'type']
-}
+};
 </script>
 
 <style>
