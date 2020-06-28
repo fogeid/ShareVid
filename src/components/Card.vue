@@ -1,5 +1,5 @@
 <template>
-  <div class="q-pa-md">
+  <div class="q-pa-md flex justify-center">
     <q-card class="my-card">
       <q-video :ratio="16/9" :src="url" />
 

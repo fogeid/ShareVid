@@ -19,7 +19,7 @@
       <q-tab-panels v-model="tab" animated>
         <q-tab-panel class="q-pa-none" name="latest">            
             <div>
-                <div class="row">
+                <div class="row justify-center items-center">
                     <div class="col-6">
                         <card url="https://www.youtube.com/embed/ZY3-MFxVdEw"
                             title="Get Ready Fast For Fall Leaf Viewing Trips"

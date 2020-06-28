@@ -4,12 +4,7 @@
 
 <script>
 export default {
-  name: 'Button',
-  data() {
-    return {
-      
-    }
-  },
+  name: 'Button',  
   props: ['title']
 };
 </script>
