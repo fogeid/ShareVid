@@ -12,7 +12,7 @@
         <q-tab name="home" label="Home" />
         <q-tab name="trending" label="Trending" />
         <q-tab name="popular" label="Popular" />
-        <q-tab name="Playlist" label="Playlist" />
+        <q-tab name="playlist" label="Playlist" />
       </q-tabs>
 
       <q-separator />
@@ -58,7 +58,7 @@
             </div>
         </q-tab-panel>
 
-        <q-tab-panel name="trending">
+        <q-tab-panel class="q-pa-none" name="trending">
             <div class="row justify-center">
                 <div class="col-12 col-sm-8 col-md-6">
                     <q-video :ratio="16/9" src="https://www.youtube.com/embed/hGalqf_D8To" />
@@ -98,7 +98,7 @@
             </div>
         </q-tab-panel>
 
-        <q-tab-panel name="popular">
+        <q-tab-panel class="q-pa-none" name="popular">
             <div class="row justify-center">
                 <div class="col-12 col-sm-8 col-md-6">
                     <q-video :ratio="16/9" src="https://www.youtube.com/embed/hGalqf_D8To" />
@@ -138,7 +138,7 @@
             </div>
         </q-tab-panel>
 
-        <q-tab-panel name="Playlist">
+        <q-tab-panel class="q-pa-none" name="playlist">
             <div class="row justify-center">
                 <div class="col-12 col-sm-8 col-md-6">
                     <q-video :ratio="16/9" src="https://www.youtube.com/embed/hGalqf_D8To" />
@@ -186,6 +186,7 @@
 import Card from '@/components/Card.vue';
 
 export default {
+    name: 'TabDashboard',
   data () {
     return {
       tab: 'home',

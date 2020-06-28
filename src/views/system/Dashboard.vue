@@ -1,13 +1,13 @@
 <template>
     <q-layout class="dashboard">
         <q-page-container class="toolbar row justify-center">
-            <div class="col">
+            <div class="col-12">
                 <toolbar title="Dashboard" />
             </div>
         </q-page-container>        
         <q-page-container class="tab row justify-center">        
             <div class="col-12 col-sm-12">
-                <tab />
+                <tab-dashboard />
             </div>
         </q-page-container>
     </q-layout>
@@ -15,13 +15,13 @@
 
 <script>
 import Toolbar from '@/components/Toolbar.vue';
-import Tab from '@/components/Tab.vue';
+import TabDashboard from '@/components/TabDashboard.vue';
 
 export default {
   name: 'Dashboard',
   components: {
       'toolbar' : Toolbar,
-      'tab' : Tab
+      'tab-dashboard' : TabDashboard
   }
 };
 </script>
@@ -32,6 +32,6 @@ export default {
 }
 
 .tab {
-    margin-top: 45px;
+    margin-top: 50px;
 }
 </style>
