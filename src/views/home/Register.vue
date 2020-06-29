@@ -1,28 +1,67 @@
 <template>
-  <q-page class="register">
+  <q-layout class="register">
     <q-page-container class="row justify-center">
       <div class="form col-10 col-sm-6 col-md-4">
         <h1 class="text-h4 text-center text-white">Register</h1>
-        <form-input class="input" title="Email" type="email" />
-        <form-input class="input" title="Full Name" type="text" />
-        <form-input class="input" title="Password" type="password" />
-        <form-input class="input" title="Confirm Password" type="password" />
-        <btn class="btn" title="Register" />
+        <form @submit.prevent="submit()" action="">        
+          <q-input dark
+              class="input"
+              label-color="white"
+              v-model="form.email"
+              type="email"
+              label="Email" />
+
+          <q-input dark
+              class="input"
+              label-color="white"
+              v-model="form.fullName"
+              type="text"
+              label="Full Name" />
+
+          <q-input dark
+              class="input"
+              label-color="white"
+              v-model="form.password"
+              type="password"
+              label="Password" />
+
+          <q-input dark
+              class="input"
+              label-color="white"
+              v-model="form.confirmPassword"
+              type="password"
+              label="Confirm Password" />
+
+          <btn class="btn" title="Register" />
+        </form>
         <a href="#">Already have a registration?</a>
       </div>
     </q-page-container>    
-  </q-page>
+  </q-layout>
 </template>
 
 <script>
 import Button from '@/components/Button.vue';
-import FormInput from '@/components/FormInput.vue';
 
 export default {
   name: 'Register',
+  data() {
+    return {
+      form: {
+        email: '',
+        fullName: '',
+        password: '',
+        confirmPassword: ''
+      }
+    }
+  },
+  methods : {
+    submit() {
+      console.log(this.form);
+    }
+  },
   components: {
-    'btn' : Button,
-    'form-input' : FormInput
+    'btn' : Button
   }
 };
 </script>
