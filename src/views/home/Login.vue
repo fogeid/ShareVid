@@ -56,4 +56,17 @@ a {
 a + a {
   margin-top: 10px;
 }
+
+@media screen and (min-width: 768px) {
+  .login {
+    background-image: none;
+    background-color: rgb(78, 18, 132);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    margin-top: 100px;
+  }
+}
 </style>

@@ -53,4 +53,17 @@ a {
   color: white;
   margin-top: 20px;
 }
+
+@media screen and (min-width: 768px) {
+  .register {
+    background-image: none;
+    background-color: rgb(78, 18, 132);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    margin-top: 80px;
+  }
+}
 </style>

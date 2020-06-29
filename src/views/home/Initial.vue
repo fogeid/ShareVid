@@ -2,8 +2,12 @@
   <q-layout class="initial">
     <q-page-container class="row justify-center">
       <div class="main col-10 col-sm-6 col-md-4">
-        <btn class="btn" title="login" />
-        <btn class="btn" title="register" />
+        <a href="/login">
+          <btn class="btn btn1" title="login" />
+        </a>
+        <a href="/register">
+          <btn class="btn" title="register" />
+        </a>
       </div>
     </q-page-container>
     <q-page-container class="row justify-center">
@@ -39,11 +43,34 @@ export default {
     padding-top: 50px;
 }
 
-.main .btn + .btn {
-    margin-top: 10px;
-}
-
 .carousel {
     margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn1 {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 425px) {
+  .card {
+      margin-top: -80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .initial {
+    background-image: none;
+    background-color: rgb(204, 156, 136);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    padding-top: 120px;
+  }
 }
 </style>
