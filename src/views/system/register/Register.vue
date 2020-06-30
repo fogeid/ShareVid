@@ -68,7 +68,7 @@ export default {
 
 <style>
 .register {
-    background: url("../../assets/background-register.png");
+    background: url("../../../assets/background-register.png");
     background-size: cover;
     height: 100vh;    
 }

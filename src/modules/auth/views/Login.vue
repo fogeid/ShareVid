@@ -28,6 +28,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex';
 import Button from '@/components/Button.vue';
 
 export default {
@@ -41,8 +42,14 @@ export default {
     }
   },
   methods : {
-    submit() {
-      console.log(this.form);
+    ...mapActions('auth', ['ActionDoLogin']),
+    async submit() {
+      try {
+        await this.ActionDoLogin(this.form);
+        this.$router.push({ name: 'dashboard' })      
+      } catch(err) {
+        alert(err.data ? err.data.message: 'Não foi possível fazer login!');
+      }
     }
   },
   components: {
@@ -53,7 +60,7 @@ export default {
 
 <style>
 .login {
-    background: url("../../assets/background-login.jpg");
+    background: url("../../../assets/background-login.jpg");
     background-size: cover;
     height: 100vh;    
 }
