@@ -2,10 +2,10 @@
   <q-layout class="initial">
     <q-page-container class="row justify-center">
       <div class="main col-10 col-sm-6 col-md-4">
-        <a href="/login">
+        <a href="#/login">
           <btn class="btn btn1" title="login" />
         </a>
-        <a href="/register">
+        <a href="#/register">
           <btn class="btn" title="register" />
         </a>
       </div>

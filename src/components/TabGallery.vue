@@ -21,14 +21,14 @@
             <div>
                 <div class="row justify-center items-center">
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/ZY3-MFxVdEw"
                                 title="Get Ready Fast For Fall Leaf Viewing Trips"
                                 subtitle="Travel" />
                         </a>
                     </div>
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/uraDZaRAjT0"
                                 title="Getting Cheap Airfare For Last Minute Travel"
                                 subtitle="Adventure" />       
@@ -37,14 +37,14 @@
                 </div>
                 <div class="row">
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/uraDZaRAjT0"
                                 title="Get Ready Fast For Fall Leaf Viewing Trips"
                                 subtitle="Travel" />       
                         </a>         
                     </div>
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/TWy2rxyZLrE"
                                 title="Getting Cheap Airfare For Last Minute Travel"
                                 subtitle="Adventure" />
@@ -53,14 +53,14 @@
                 </div>
                 <div class="row">
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/uraDZaRAjT0"
                                 title="Get Ready Fast For Fall Leaf Viewing Trips"
                                 subtitle="Travel" />     
                         </a>           
                     </div>
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/TWy2rxyZLrE"
                                 title="Getting Cheap Airfare For Last Minute Travel"
                                 subtitle="Adventure" />
@@ -74,14 +74,14 @@
             <div>
                 <div class="row">
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/ZY3-MFxVdEw"
                                 title="Get Ready Fast For Fall Leaf Viewing Trips"
                                 subtitle="Travel" />   
                         </a>
                     </div>
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/uraDZaRAjT0"
                                 title="Getting Cheap Airfare For Last Minute Travel"
                                 subtitle="Adventure" />        
@@ -90,14 +90,14 @@
                 </div>
                 <div class="row">
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/uraDZaRAjT0"
                                 title="Get Ready Fast For Fall Leaf Viewing Trips"
                                 subtitle="Travel" />   
                         </a>           
                     </div>
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/TWy2rxyZLrE"
                                 title="Getting Cheap Airfare For Last Minute Travel"
                                 subtitle="Adventure" />
@@ -106,14 +106,14 @@
                 </div>
                 <div class="row">
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/uraDZaRAjT0"
                                 title="Get Ready Fast For Fall Leaf Viewing Trips"
                                 subtitle="Travel" />          
                         </a>      
                     </div>
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/TWy2rxyZLrE"
                                 title="Getting Cheap Airfare For Last Minute Travel"
                                 subtitle="Adventure" />
@@ -127,14 +127,14 @@
             <div>
                 <div class="row">
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/ZY3-MFxVdEw"
                                 title="Get Ready Fast For Fall Leaf Viewing Trips"
                                 subtitle="Travel" />   
                         </a>
                     </div>
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/uraDZaRAjT0"
                                 title="Getting Cheap Airfare For Last Minute Travel"
                                 subtitle="Adventure" />        
@@ -143,14 +143,14 @@
                 </div>
                 <div class="row">
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/uraDZaRAjT0"
                                 title="Get Ready Fast For Fall Leaf Viewing Trips"
                                 subtitle="Travel" />   
                         </a>           
                     </div>
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/TWy2rxyZLrE"
                                 title="Getting Cheap Airfare For Last Minute Travel"
                                 subtitle="Adventure" />
@@ -159,14 +159,14 @@
                 </div>
                 <div class="row">
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/uraDZaRAjT0"
                                 title="Get Ready Fast For Fall Leaf Viewing Trips"
                                 subtitle="Travel" />          
                         </a>      
                     </div>
                     <div class="col-6">
-                        <a href="/detail">
+                        <a href="#/detail">
                             <card url="https://www.youtube.com/embed/TWy2rxyZLrE"
                                 title="Getting Cheap Airfare For Last Minute Travel"
                                 subtitle="Adventure" />

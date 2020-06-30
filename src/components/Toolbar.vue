@@ -35,7 +35,7 @@
               </q-item-section>            
           </q-item>
 
-          <q-item clickable tag="a" href="/profile">
+          <q-item clickable tag="a" href="#/profile">
             <q-item-section avatar>
               <q-icon class="text-white" name="person" />
             </q-item-section>
@@ -62,7 +62,7 @@
             </q-item-section>
           </q-item>
 
-          <q-item clickable tag="a" href="/following">
+          <q-item clickable tag="a" href="#/following">
             <q-item-section avatar>
               <q-icon class="text-white" name="peoples" />
             </q-item-section>
@@ -80,7 +80,7 @@
             </q-item-section>
           </q-item>
 
-          <q-item clickable tag="a" href="/gallery">
+          <q-item clickable tag="a" href="#/gallery">
             <q-item-section avatar>
               <q-icon class="text-white" name="collections" />
             </q-item-section>
